@@ -2,13 +2,13 @@ import { useState } from 'react'
 import Chai from "./chai"
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  //add js
+  const username = "chai aur code" //{} inside return is used as varible: it is called evaluated expression we dont write js but js final o/p which is the evaluated output 
   return (
     // fragment 
     <> 
+      <h1>chai aur react {username}</h1>
       <Chai />
-      <h1>chai aur react</h1>
       <p>test para</p>
     </>
   )
