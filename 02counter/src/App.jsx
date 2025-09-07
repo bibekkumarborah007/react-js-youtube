@@ -24,7 +24,8 @@ function App() {
   
   //start
 
-  let [counter, setCounter] = useState(15)
+  let [counter, setCounter] = useState(15) //counter 0th index of array and setCounter is fnc which updates the counter
+
 
   const addValue = () =>{
     console.log("clicked", counter);
@@ -49,7 +50,7 @@ function App() {
       <button onClick={addValue}>Add value {counter}</button>
       <br/>
       <button onClick={removeValue}>remove value {counter}</button>
-
+      <p>footer: {counter}</p>
     </>
   )
 }
