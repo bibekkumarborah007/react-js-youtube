@@ -2,14 +2,15 @@
 
 import React from "react";
 
-function Card({username, btnText="Visit Me"}) {
-    // console.log("props", props);
-    console.log(username);
+function Card({ username, btnText = "Visit Me", imgURL }) {
+  // console.log("props", props);
+  console.log(username);
   return (
     <div className="relative h-[400px] w-[300px] rounded-md overflow-hidden">
       {/* Background Image */}
       <img
-        src="https://images.unsplash.com/photo-1546961329-78bef0414d7c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60"
+        // src="{https://images.unsplash.com/photo-1546961329-78bef0414d7c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60}"
+        src={imgURL}
         alt="Airmax Pro"
         className="h-full w-full object-cover rounded-md"
       />
@@ -36,5 +37,5 @@ function Card({username, btnText="Visit Me"}) {
 export default Card;
 
 //function Card(props) {
-    // console.log("props", props);
-    // console.log(props.username);
+// console.log("props", props);
+// console.log(props.username);

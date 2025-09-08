@@ -10,14 +10,14 @@ function App() {
     username: "bibek",
     age: 21
   }
-  let newArr = [1,2,3]
+  let newArr = [1, 2, 3]
 
   return (
     <>
       <h1 className='bg-green-400 text-black p-4 rounded-xl mb-4'>Tailwind CSS</h1>
       {/* <Card channel="chaiaurcode" someObje = {newArr} /> */}
-      <Card username="chaiaurcode" btnText="Click Me"/>
-      <Card username="Bibek"/>
+      <Card username="chaiaurcode" btnText="Click Me" imgURL="https://images.unsplash.com/photo-1546961329-78bef0414d7c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60" />
+      <Card username="Bibek" imgURL="https://images.unsplash.com/photo-1546961329-78bef0414d7c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60" />
     </>
   )
 }

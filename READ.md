@@ -12,7 +12,7 @@
 
 3. Why react was created?
 - Ghost or Phantom message Problem. Chatbot notification dropdown alter and on tap the notification popup doesn't goes after reading the notication
-    - State -> JS  & UI -> DOM
+    - State -> JS  & UI -> DOM (no sync but reacts sync in between)
 - Khan Academy and Unsplash
 
 3. Don't learn React if?
